@@ -6,7 +6,6 @@ import { TodoComponent } from './components/todo/todo';
   standalone: true,
   imports: [TodoComponent],
   template: `
-    <h1>Todo App</h1>
     <app-todo></app-todo>
   `,
 })
